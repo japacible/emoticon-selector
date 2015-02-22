@@ -26,7 +26,6 @@ var copy = function(text) {
     document.execCommand('Copy');
     input.remove();
     window.close();
-    // TODO(apacible): Avoid scrolling to the bottom.
 }
 
 window.onload = initiate();
