@@ -25,7 +25,7 @@ var copy = function(text) {
     input.select();
     document.execCommand('Copy');
     input.remove();
-    // TODO(apacible): Close popup.
+    window.close();
     // TODO(apacible): Avoid scrolling to the bottom.
 }
 
