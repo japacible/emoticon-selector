@@ -1,5 +1,7 @@
 var initiate = function() {
   var content = document.getElementById('content');
+
+  // TODO(apacible): Add tags and sort (e.g. by emotion).
   var faces = json.faces;
 
   for (var i = 0; i < faces.length; i++) {
@@ -23,6 +25,8 @@ var copy = function(text) {
     input.select();
     document.execCommand('Copy');
     input.remove();
+    // TODO(apacible): Close popup.
+    // TODO(apacible): Avoid scrolling to the bottom.
 }
 
 window.onload = initiate();
