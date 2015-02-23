@@ -3,6 +3,9 @@ Also known as Jenpa's Faces of Doom.
 
 For several years, I've kept a document of emoticons to select from when I wanted to express my emotions over the internet. It takes a while to open up the doc, find the emoticon I want, select, copy, and paste. This extension saves some of the hassle.
 
+### Use
+Find Emoticon Selector in the [Chrome Web Store](https://chrome.google.com/webstore/detail/emoticon-selector/jekhokceghfgglclkjmohaikpgkbdbhj)!
+
 ### Contributing
 Feel free to to submit an issue or pull request.
 
