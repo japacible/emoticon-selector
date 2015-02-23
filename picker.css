@@ -9,25 +9,21 @@ body {
 }
 
 button {
-  color: #6496c8;
   background: rgba(0,0,0,0);
-  border: solid 1px #6496c8;
+  border: solid 1px #6496C8;
+  color: #6496C8;
   margin-bottom: 5px;
   padding-bottom: 5px;
   padding-top: 5px;
   width: 100%;
 }
 
+button:active,
+button.active,
 button:hover,
 button.hover {
-  border-color: #346392;
-  color: #346392;
-}
-
-button:active,
-button.active {
-  border-color: #27496d;
-  color: #27496d;
+  border: dashed 1px #DC143C;
+  color: #DC143C;
 }
 
 #content {
