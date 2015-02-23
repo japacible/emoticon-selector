@@ -1,6 +1,6 @@
 {
   "manifest_version": 2,
-  "name": "Face Selector",
+  "name": "Emoticon Selector",
   "version": "1.0",
   "description": "Copy & paste faces.",
     "icons": {
@@ -11,7 +11,7 @@
   "browser_action": {
     "default_icon": "icon16.png",
     "default_popup": "picker.html",
-    "default_title": "Face Selector"
+    "default_title": "Emoticon Selector"
   },
   "author": "Jennifer Apacible",
   "permissions": [
