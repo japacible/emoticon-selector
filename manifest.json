@@ -1,14 +1,20 @@
 {
   "manifest_version": 2,
-
-  "name": "Face Picker",
-  "description": "Copy & paste faces.",
+  "name": "Face Selector",
   "version": "1.0",
+  "description": "Copy & paste faces.",
+    "icons": {
+    "16": "icon16.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  },
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "icon16.png",
     "default_popup": "picker.html",
-    "default_title": "Face Picker"
-  }, "permissions": [
+    "default_title": "Face Selector"
+  },
+  "author": "Jennifer Apacible",
+  "permissions": [
     "clipboardWrite"
   ]
 }
