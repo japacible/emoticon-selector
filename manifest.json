@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Emoticon Selector",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Copy & paste faces.",
     "icons": {
     "16": "icon16.png",
