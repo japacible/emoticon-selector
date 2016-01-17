@@ -10,11 +10,10 @@ body {
 
 button {
   background: rgba(0,0,0,0);
-  border: solid 1px #6496C8;
+  border: none;
   color: #6496C8;
-  margin-bottom: 5px;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  height: 30px;
+  text-align: left;
   width: 100%;
 }
 
@@ -22,19 +21,11 @@ button:active,
 button.active,
 button:hover,
 button.hover {
-  border: dashed 1px #DC143C;
   color: #DC143C;
 }
 
 #content {
   display: block;
-  height: 300px;
+  height: 400px;
   overflow: auto;
-}
-
-#header {
-  color: #27496d;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  text-align: center;
 }
